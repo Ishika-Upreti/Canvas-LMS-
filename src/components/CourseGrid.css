@@ -1,0 +1,19 @@
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 1rem 0;
+  width: 100%; 
+  box-sizing: border-box;
+}
+@media (max-width: 1024px) {
+  .course-grid {
+    grid-template-columns: repeat(2, 1fr);  /* Tablet */
+  }
+}
+
+@media (max-width: 768px) {
+  .course-grid {
+    grid-template-columns: 1fr;  /* Mobile */
+  }
+}

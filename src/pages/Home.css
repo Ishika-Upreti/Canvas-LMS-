@@ -1,0 +1,17 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.home-container {
+  height: 100vh;       /* Viewport height - fills screen */
+  width: 100vw;          /* Viewport width - full width */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background:rgb(147, 225, 147);
+  color: rgb(9, 12, 9);
+  text-align: center;
+}

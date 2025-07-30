@@ -1,0 +1,36 @@
+.course-card {
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  transition: transform 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 160px;  /* Equal card height */
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+.course-card h3 {
+  margin: 0 0 10px;
+  font-size: 1.25rem;
+}
+
+.course-card p {
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.card-link {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .course-card {
+    width: 100%;
+  }
+}

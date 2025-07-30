@@ -1,0 +1,29 @@
+/* App container fills the full viewport */
+html, body, #root {
+  height: 100%;
+  
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: black; /* Unified body bg */
+  color: white;
+ 
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.app-container {
+  min-height: 100vh;
+  background-color: transparent;
+}
+@media (max-width: 768px) {
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
