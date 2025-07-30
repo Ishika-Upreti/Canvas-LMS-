@@ -1,12 +1,30 @@
-# React + Vite
+# 🎓 Canvas LMS - Frontend UI Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive front-end clone inspired by the Canvas Learning Management System (LMS), built using **React.js**, **HTML**, **CSS**, and **JavaScript**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Project Overview
 
-## Expanding the ESLint configuration
+This project replicates the **user interface** of the Canvas LMS dashboard, designed for students to interact with their courses, view progress, check assignments, and manage to-do lists.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+It demonstrates front-end development skills including:
+- Responsive layout
+- Sidebar navigation
+- Dynamic routing (React Router)
+- State management (basic React state)
+- Course grid with progress bars
+- Tab-based content switching
+
+---
+
+## 🧰 Tech Stack
+
+- ⚛️ React.js
+- 🧱 HTML5
+- 🎨 CSS3
+- 🧠 JavaScript 
+- 📦 React Router (for navigation)
+
+---
+
